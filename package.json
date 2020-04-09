@@ -4,8 +4,9 @@
   "description": "",
   "main": "dist/main.js",
   "scripts": {
-    "build": "webpack --config webpack.config.js",
-    "prepare": "yarn run webpack --config webpack.config.js"
+    "build": "npx webpack --config webpack.config.js",
+    "prepare": "npx webpack --config webpack.config.js",
+    "test": "echo \"always test passed\" && exit 0"
   },
   "author": "",
   "license": "MIT",
