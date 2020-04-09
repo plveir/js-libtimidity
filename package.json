@@ -5,7 +5,7 @@
   "main": "dist/main.js",
   "scripts": {
     "build": "npx webpack --config webpack.config.js",
-    "postinstall": "npx webpack --config webpack.config.js&&echo \"hello!\"",
+    "install": "npx webpack --config webpack.config.js",
     "test": "echo \"always test passed\" && exit 0"
   },
   "author": "",
