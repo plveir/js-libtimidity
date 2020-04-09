@@ -201,5 +201,4 @@ class JSLibTimidity {
     }
   }
 }
-
 export default JSLibTimidity
